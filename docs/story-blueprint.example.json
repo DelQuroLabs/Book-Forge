@@ -1,0 +1,55 @@
+{
+  "format": "design-example-only-not-an-app-import",
+  "status": "proposed-extension",
+  "series": {
+    "id": "series-example",
+    "title": "The Borrowed Light",
+    "readerPromise": "A repairer learns that restoring a city means changing who controls its resources.",
+    "centralConflict": "A guild controls every legal repair core.",
+    "endgame": "The districts govern repair resources together, after paying real costs.",
+    "canon": [
+      { "id": "rule-conservation", "rule": "Repair moves usable strength; it cannot create matter or free energy." }
+    ],
+    "threads": [
+      { "id": "thread-signal", "question": "Who left the three-knock signal?", "setupVolumeId": "volume-one", "payoffVolumeId": "volume-three", "plannedStatus": "unresolved" }
+    ],
+    "volumes": [
+      {
+        "id": "volume-one",
+        "title": "A District of Borrowed Light",
+        "dramaticQuestion": "Can the repairer keep her district alive without handing its last cores to the guild?",
+        "emotionalArc": "Private self-reliance becomes accountable cooperation.",
+        "climax": "She chooses a public, costly repair rather than a private escape.",
+        "chapterCards": [
+          {
+            "id": "chapter-one",
+            "purpose": "Expose the false safety report and make the repair cost personal.",
+            "scenes": [
+              {
+                "id": "scene-gate",
+                "povEntityId": "character-repairer",
+                "timeAnchor": "Day 1, before dawn",
+                "locationId": "place-floodgate",
+                "goal": "Seal the gate before the lower street floods.",
+                "obstacle": "The official report says the gate is sound, but the braces are crumbling.",
+                "turningPoint": "The only compatible donor material is her own transport cart.",
+                "choice": "Dismantle the cart despite losing her livelihood.",
+                "consequence": "The street survives, but she must ask a former rival for transport.",
+                "emotionalChange": "Competence is no longer enough; she must accept help.",
+                "nextSceneBecause": "The lost cart forces the meeting that reveals the missing-core ledger.",
+                "plannedReveals": ["The safety report is unreliable."],
+                "mustNotRevealYet": ["The identity of the signal's sender."],
+                "resourceConstraints": ["No replacement matter is created."],
+                "establishedFactIds": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "establishedMemory": {
+    "facts": [],
+    "explanation": "This example contains plans, not written chapters. Established facts remain empty until supported by accepted manuscript text. Future records must cite stable chapter IDs, exact quotations and current source hashes."
+  }
+}

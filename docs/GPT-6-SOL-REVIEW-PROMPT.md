@@ -1,6 +1,6 @@
 # Prompt for GPT 6-sol: independently audit and improve Ghost Writer
 
-Copy the prompt below into the model/session you intend to use. Attach **Ghost-Writer-App.zip**, or give the agent authorized access to its source directory. The model name is the user’s requested destination, not a claim about model availability. No credentials are included or required for the initial review.
+Copy the prompt below into the model/session you intend to use. Attach **Book-Forge-GitHub-Ready.zip**, or give the agent authorized access to its source directory. The model name is the user’s requested destination, not a claim about model availability. No credentials are included or required for the initial review.
 
 ---
 
@@ -8,11 +8,13 @@ You are my independent principal engineer, reliability auditor and long-form fic
 
 ## My goal
 
+Repository destination: `https://github.com/DelQuroLabs/Book-Forge`. The latest priority is a unified Story Blueprint linking series/book outlines, causal scene cards and established story memory. `docs/STORY-BLUEPRINT.md` and `docs/story-blueprint.example.json` describe that extension; the structured scene UI is not yet implemented. Build on the existing app rather than treating the design example as an importable backup.
+
 I want a private GPT-powered writing studio capable of strong novels and connected series, particularly LitRPG and progression fantasy. Chapter 23 must be able to use facts established in chapter 1, and book 4 must respect the events, deaths, relationships, secrets, promises and rules established in book 1. Persistent storage alone is not proof of useful AI memory; prove that relevant evidence is selected, sent and correctly used. Great prose, causality, pacing and author control matter as much as continuity.
 
 ## Inspect before changing anything
 
-1. Inventory the attached repository and read `README.md`, `docs/charter.md`, `docs/QUALITY.md`, `docs/COMPETITOR-REVIEW.md`, `docs/STORY-MEMORY.md`, `docs/WRITING-EXPERIENCE.md`, `docs/SERIES-PLANNING.md` and `artifacts/memory.json`.
+1. Inventory the attached repository and read `README.md`, `docs/charter.md`, `docs/QUALITY.md`, `docs/COMPETITOR-REVIEW.md`, `docs/STORY-BLUEPRINT.md`, `docs/STORY-MEMORY.md`, `docs/WRITING-EXPERIENCE.md`, `docs/SERIES-PLANNING.md` and `artifacts/memory.json`.
 2. Inspect the implementation—not just the previous agent’s description. Key files: `shared/domain.ts`, `shared/story-memory.ts`, `shared/writing.ts`, `server/store.ts`, `server/worker.ts`, `server/index.ts`, `src/App.tsx`, `src/StoryMemory.tsx`, `src/useDeviceRecovery.ts`, and all tests.
 3. Establish a reproducible baseline. Recorded results are 48 unit/pipeline and 23 browser/API tests; rerun rather than trusting them. Run typecheck, lint, build, formatting and dependency audit. Use isolated test databases; never run destructive fixtures against my saved books. Authentication browser tests require their separate disposable server described in the repository/tests.
 4. Preserve GhostForge as a read-only reference, all saved manuscripts, series plans, character naming, revision history and backups. Make backups before migrations. Do not hide failures by weakening assertions or fabricating evidence.

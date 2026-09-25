@@ -4,11 +4,11 @@
   "current_phase": "preview",
   "current_completion_label": "incomplete",
   "accepted_core_outcome": "Build an actual fresh private Ghost Writer app with coherent genre RNG including LitRPG, guided and bounded autopilot writing, integral series planning, location-informed culturally relevant naming, and Coolify self-hosting preparation.",
-  "last_turn_summary": "Reviewed selected public pages/help for AIWriteBook, BookyAI, probable Chapter/Designrr alternatives and BookNova; exact go.charter.pub and go1.designr.io did not load. Implemented source-hashed chapter ledgers, quoted facts/pins, bounded earlier-chapter/prior-volume retrieval, current-state selection, stale/conflict guards, source-dependency concurrency checks, explicit memory jobs, voice direction and repetition warnings. Story memory tab is live.48 unit/pipeline and23 browser/API tests pass, including actual synthetic request payloads for chapter1 at chapter23 and book1 at book4. Preview ghost-writer-33a61e53 runs port3000 using preserved data/preview-v1; live smoke passed without edits. Research report and GPT6-sol audit prompt are in docs and workspace root; source ZIP updated. No paid calls or remote deployment; real-model literary quality remains untested.",
+  "last_turn_summary": "User emphasized cohesive writing and a central outline/wireframe, requested a ZIP for github.com/DelQuroLabs/Book-Forge and will upload it themselves. Packaged current Ghost Writer implementation at repository root with GitHub setup, AGENTS.md, a concrete Story Blueprint design/JSON example, updated review prompt, Node hint and stronger ignore rules. Structured scene-level blueprint is explicitly proposed, not new runtime functionality. Runtime/test files and dependency lock were compared byte-for-byte with the previously verified package (48 unit/pipeline,23 browser/API passed); no application tests rerun for this documentation/metadata-only handoff. No remote GitHub action, paid call, server restart or deployment; private data excluded and preserved locally.",
   "next_actions": [
     {
       "id": "N1",
-      "action": "Use the live Ghost Writer preview, Book \u2192 Story memory, and docs/STORY-MEMORY.md. For independent review, attach the updated source ZIP and use docs/GPT-6-SOL-REVIEW-PROMPT.md plus docs/COMPETITOR-REVIEW.md. Preserve data/preview-v1 and GhostForge."
+      "action": "User will extract Book-Forge-GitHub-Ready.zip and upload its contents to DelQuroLabs/Book-Forge. Continue with AGENTS.md, docs/STORY-BLUEPRINT.md and the updated GPT6-sol review prompt. Preserve existing app/data and implement structured scene causality with tests rather than claiming the design is already implemented."
     },
     {
       "id": "N2",
@@ -343,6 +343,27 @@
         "Exact Charter/Designr domains need confirmation if the probable Chapter/Designrr matches were not intended.",
         "Live-model extraction/prose quality requires secure configuration and authorized test budget.",
         "Semantic retrieval/alias resolution, narrative-time ledger, full-manuscript editing and production deployment remain unverified or deferred."
+      ]
+    },
+    {
+      "at": "2026-09-25T16:43:29.222967+00:00",
+      "user_message_brief": "Stories must be well-written and cohesive; use an outline/wireframe as home for book/series story and memory. Provide ZIP for user-upload to github.com/DelQuroLabs/Book-Forge.",
+      "actions_taken": [
+        "Inspected current outline, series roadmap, source-linked memory and existing verified source archive.",
+        "Wrote a concrete Story Blueprint hierarchy/workspace wireframe, causal drafting/review loop, original design-only JSON example and implemented-versus-next matrix.",
+        "Prepared repository-root archive, GitHub upload/setup and agent handoff docs; added repository metadata/Node hint and strengthened private-file ignore rules.",
+        "Compared runtime/test source against the previous verified archive, checked dependency lock and JSON/record schemas, and verified ZIP hashes/integrity."
+      ],
+      "outcomes": [
+        "GitHub-ready source package prepared; the author uploads extracted files themselves.",
+        "No silent rename of the app, no new scene-planner implementation claim and no real-model quality claim.",
+        "No private databases, credentials, generated dependencies or competitor corpus in package; no remote actions."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Advanced scene-level blueprint/editor remains proposed next work.",
+        "Personal library and browser recovery copies do not travel with the source ZIP.",
+        "GitHub repository contents and CI/deployment were not inspected or changed."
       ]
     }
   ],

@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-09-25T16:43:29.222967+00:00",
+  "repository_destination": "https://github.com/DelQuroLabs/Book-Forge",
+  "app_name": "Ghost Writer",
+  "archive": "Book-Forge-GitHub-Ready.zip",
+  "layout": "repository-root (no wrapper folder)",
+  "remote_actions": "none; no fetch, push, creation or deployment",
+  "changes": [
+    "Story Blueprint architecture and worked design-only JSON example",
+    "GitHub setup and agent handoff instructions",
+    "README and review prompt updated for repository destination and story-quality priority",
+    "Repository metadata, Node version hint and stronger private-file ignore rules"
+  ],
+  "runtime_comparison": {
+    "against": "previous verified Ghost-Writer-App.zip",
+    "matched_files": 44,
+    "all_match": true,
+    "package_dependency_lock_consistent": true
+  },
+  "prior_runtime_tests": {
+    "unit_pipeline_passed": 48,
+    "browser_api_passed": 23,
+    "rerun_this_handoff": false,
+    "note": "Runtime and test sources are byte-identical to the previously verified package; no new application behavior claimed."
+  },
+  "design_status": "Structured scene blueprint is proposed, not implemented or importable",
+  "private_data_included": false,
+  "paid_calls": 0
+}
