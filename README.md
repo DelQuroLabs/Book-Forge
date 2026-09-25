@@ -1,8 +1,14 @@
 # Ghost Writer
 
+**Repository handoff:** [DelQuroLabs/Book-Forge](https://github.com/DelQuroLabs/Book-Forge). Start with [GITHUB-SETUP.md](GITHUB-SETUP.md) for extracting/uploading the source and moving private books separately. Repository location does not imply a remote push or deployment.
+
 A fresh, private author’s studio: coherent story seeds, series planning, culturally informed character names, manuscripts, chapter revisions, and bounded server-side GPT writing jobs.
 
 **Version 0.1.0 — working local preview, not a production-release claim.** This is the app source, not just the earlier research proposal. The existing GhostForge reference was not modified or reused as an application base.
+
+## Story quality and the Story Blueprint
+
+Memory prevents some contradictions; good books also need causal scenes, character choices, emotional development and earned payoffs. The existing outline, series roadmap and source-linked memory are the foundation. [Story Blueprint](docs/STORY-BLUEPRINT.md) describes the next unified book/series planning model and clearly separates implemented functionality from proposed scene-level work. The [worked JSON example](docs/story-blueprint.example.json) is design documentation, not an importable library backup.
 
 ## Long-book and series memory
 
