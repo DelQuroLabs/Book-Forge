@@ -1,0 +1,1 @@
+PASS: memory and verification records validate against repository schemas.

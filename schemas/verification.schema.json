@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ghost Writer local verification record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "project", "version", "phase", "completion", "recorded_at", "paid_api_calls", "remote_deployment", "checks"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "project": {"const": "ghost-writer"},
+    "version": {"type": "string"},
+    "phase": {"enum": ["prototype", "preview", "production-candidate"]},
+    "completion": {"enum": ["incomplete", "phase-complete", "release-ready"]},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "paid_api_calls": {"type": "integer", "minimum": 0},
+    "remote_deployment": {"enum": ["not-run", "pass", "fail"]},
+    "checks": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "state"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "state": {"enum": ["pass", "fail", "blocked", "not-run"]},
+          "count": {"type": "integer", "minimum": 0},
+          "evidence": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "allOf": [{"if": {"properties": {"state": {"const": "pass"}}}, "then": {"required": ["evidence"]}, "else": {"required": ["reason"]}}]
+      }
+    }
+  }
+}

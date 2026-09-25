@@ -1,0 +1,15 @@
+
+> ghost-writer@0.1.0 build
+> vite build && tsc -p tsconfig.server.json
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 2010 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                          0.72 kB │ gzip:  0.41 kB
+dist/assets/index-bqwelkGe.css          52.30 kB │ gzip: 11.88 kB
+dist/assets/schema-vendor-DbApXmBL.js   86.99 kB │ gzip: 24.85 kB
+dist/assets/index-ARlczdtz.js          199.52 kB │ gzip: 65.23 kB
+dist/assets/react-vendor-dgengZBm.js   221.83 kB │ gzip: 69.02 kB
+✓ built in 3.04s

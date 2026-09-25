@@ -1,0 +1,4 @@
+
+> ghost-writer@0.1.0 typecheck
+> tsc --noEmit && tsc -p tsconfig.server.json --noEmit && tsc -p tsconfig.test.json --noEmit
+

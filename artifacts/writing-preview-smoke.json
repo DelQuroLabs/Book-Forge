@@ -1,0 +1,12 @@
+{
+  "health": {
+    "ok": true
+  },
+  "port": 3000,
+  "process": "ghost-writer-2e0d8e30",
+  "dataDirectory": "data/preview-v1",
+  "existingBookOpened": true,
+  "focusAndSearchAvailable": true,
+  "manuscriptEdits": false,
+  "paidCalls": 0
+}

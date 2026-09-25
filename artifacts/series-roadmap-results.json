@@ -1,0 +1,20 @@
+{
+  "legacySeriesCompatibility": true,
+  "persistedRoadmapBrowserTest": true,
+  "stableReferencesAfterReorder": true,
+  "linkedBookInvalidationTest": true,
+  "backupIncludesRoadmap": true,
+  "generationContextVerified": "Local synthetic provider only",
+  "paidCalls": 0,
+  "desktopViewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "mobileOverflow": false,
+  "browserErrors": [],
+  "screenshotNote": "Manual demonstration text in an unsaved browser draft; no preview records changed."
+}

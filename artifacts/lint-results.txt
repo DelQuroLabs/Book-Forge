@@ -1,0 +1,4 @@
+
+> ghost-writer@0.1.0 lint
+> eslint src server shared tests
+

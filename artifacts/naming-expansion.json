@@ -1,0 +1,41 @@
+{
+  "catalogVersion": 3,
+  "countries": 45,
+  "regions": 387,
+  "cities": 754,
+  "realWorldProfiles": 65,
+  "customProfiles": 1,
+  "continentMembershipCounts": {
+    "Africa": 8,
+    "Asia": 15,
+    "Europe": 13,
+    "North America": 3,
+    "South America": 5,
+    "Oceania": 5
+  },
+  "antarcticStationCount": 4,
+  "majorCountries": [
+    {
+      "country": "China",
+      "regions": 33,
+      "cities": 75
+    },
+    {
+      "country": "Russia",
+      "regions": 36,
+      "cities": 65
+    },
+    {
+      "country": "United States",
+      "regions": 51,
+      "cities": 187
+    }
+  ],
+  "allPlaceEntriesRoundTripTested": true,
+  "continentsBrowserTest": true,
+  "persistedCharacterBrowserTest": true,
+  "paidCalls": 0,
+  "limitations": "Curated starter pools; no comprehensive cultural audit, local name-frequency data or new historical-name support.",
+  "mobileOverflow": false,
+  "browserErrors": []
+}

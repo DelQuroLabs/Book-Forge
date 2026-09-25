@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-09-25T16:33:06.500209+00:00",
+  "scope": "Persistent source-linked long-book and series memory; public competitor evaluation",
+  "unit_pipeline": {
+    "passed": 48,
+    "failed": 0
+  },
+  "browser_api": {
+    "passed": 23,
+    "failed": 0
+  },
+  "key_regressions": [
+    "Chapter1 sourced pin in chapter23 actual synthetic-provider draft/review input",
+    "Book1 evidence in book4 input; later-volume prose excluded from past retrieval",
+    "Source SHA256 staleness; unsupported quotes rejected; refreshed pins preserved",
+    "Latest changing state selected in stable-ID reading order; immutable conflicts visible/blocking",
+    "Memory-only jobs preserve prose and checkpoint across request caps",
+    "Earlier-source change during generation refuses outdated result",
+    "Earlier-volume manual/AI changes and deletion flag later manuscripts",
+    "Manual ledger/style save/reload, JSON backup, demo-disabled extraction",
+    "Desktop memory axe and390px mobile overflow checks"
+  ],
+  "paid_api_calls": 0,
+  "remote_deployment": "not-run",
+  "real_model_quality": "not-tested",
+  "limitations": [
+    "Keyword rather than semantic retrieval",
+    "Quotes verify presence, not entailment",
+    "Reading order is not flashback/event time",
+    "No deterministic LitRPG arithmetic ledger",
+    "Memory budget selects context; not every unpinned detail is transmitted",
+    "No full-manuscript semantic audit or automatic whole-series run"
+  ],
+  "evidence": [
+    "artifacts/unit-results.txt",
+    "artifacts/browser-results.json",
+    "artifacts/memory-preview-smoke.json",
+    "artifacts/competitor-review-sources.json",
+    "artifacts/screenshots/story-memory-desktop.png",
+    "artifacts/screenshots/story-memory-mobile.png"
+  ]
+}

@@ -1,0 +1,1 @@
+PASS: GhostForge reference git status --short is clean after the continuity upgrade.

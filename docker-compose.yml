@@ -1,0 +1,22 @@
+services:
+  ghost-writer:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATA_DIR: /app/data
+      DEMO_MODE: "false"
+      APP_PASSWORD: ${APP_PASSWORD:?Set a unique studio password}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?Set the HTTPS app origin}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+      ENABLE_PAID_GENERATION: ${ENABLE_PAID_GENERATION:-false}
+      OPENAI_INPUT_PRICE_PER_MILLION: ${OPENAI_INPUT_PRICE_PER_MILLION:-}
+      OPENAI_OUTPUT_PRICE_PER_MILLION: ${OPENAI_OUTPUT_PRICE_PER_MILLION:-}
+    volumes:
+      - ghost-writer-data:/app/data
+volumes:
+  ghost-writer-data:

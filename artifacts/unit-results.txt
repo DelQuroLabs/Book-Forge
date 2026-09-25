@@ -1,0 +1,254 @@
+
+> ghost-writer@0.1.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: seed replay gives identical concepts and locks preserve semantic fields
+ok 1 - seed replay gives identical concepts and locks preserve semantic fields
+  ---
+  duration_ms: 1.595887
+  ...
+# Subtest: 1000 seeded concepts per implemented genre remain valid and connected
+ok 2 - 1000 seeded concepts per implemented genre remain valid and connected
+  ---
+  duration_ms: 52.173849
+  ...
+# Subtest: naming profiles preserve order and Mexican two-family-name convention
+ok 3 - naming profiles preserve order and Mexican two-family-name convention
+  ---
+  duration_ms: 7.363437
+  ...
+# Subtest: unresearched historical names and unknown cultures fail explicitly
+ok 4 - unresearched historical names and unknown cultures fail explicitly
+  ---
+  duration_ms: 0.903386
+  ...
+# Subtest: location inference is advisory and never equates Nigeria with one culture
+ok 5 - location inference is advisory and never equates Nigeria with one culture
+  ---
+  duration_ms: 5.769786
+  ...
+# Subtest: book and series configurations validate with linked volume records
+ok 6 - book and series configurations validate with linked volume records
+  ---
+  duration_ms: 4.726646
+  ...
+# Subtest: expanded country/region catalog references only valid profiles
+ok 7 - expanded country/region catalog references only valid profiles
+  ---
+  duration_ms: 1.354623
+  ...
+# Subtest: country-region-city selections round-trip for every catalog entry
+ok 8 - country-region-city selections round-trip for every catalog entry
+  ---
+  duration_ms: 47.118161
+  ...
+# Subtest: large countries offer multiple backgrounds and regional choices
+ok 9 - large countries offer multiple backgrounds and regional choices
+  ---
+  duration_ms: 1.24991
+  ...
+# Subtest: accent-insensitive matching, aliases and ambiguous cities do not guess
+ok 10 - accent-insensitive matching, aliases and ambiguous cities do not guess
+  ---
+  duration_ms: 6.657406
+  ...
+# Subtest: uncovered local traditions stay explicit instead of borrowing a neighboring profile
+ok 11 - uncovered local traditions stay explicit instead of borrowing a neighboring profile
+  ---
+  duration_ms: 0.366653
+  ...
+# Subtest: all profiles produce repeatable valid names while retaining display conventions
+ok 12 - all profiles produce repeatable valid names while retaining display conventions
+  ---
+  duration_ms: 18.978036
+  ...
+# Subtest: every inhabited continent has several countries and major-country detail is substantial
+ok 13 - every inhabited continent has several countries and major-country detail is substantial
+  ---
+  duration_ms: 5.59211
+  ...
+# Subtest: Antarctic station locations never inherit a similarly named city's naming profile
+ok 14 - Antarctic station locations never inherit a similarly named city's naming profile
+  ---
+  duration_ms: 7.965256
+  ...
+# Subtest: chapter saves preserve revisions and reject stale updates
+ok 15 - chapter saves preserve revisions and reject stale updates
+  ---
+  duration_ms: 2.444504
+  ...
+# Subtest: different document types cannot reuse an existing ID
+ok 16 - different document types cannot reuse an existing ID
+  ---
+  duration_ms: 0.694047
+  ...
+# Subtest: autopilot plans and drafts sequentially with series canon and approved cultural names
+ok 17 - autopilot plans and drafts sequentially with series canon and approved cultural names
+  ---
+  duration_ms: 76.60361
+  ...
+# Subtest: budget guard prevents a request before it is sent
+ok 18 - budget guard prevents a request before it is sent
+  ---
+  duration_ms: 4.225283
+  ...
+# Subtest: request cap retains completed work and stops remaining chapters
+ok 19 - request cap retains completed work and stops remaining chapters
+  ---
+  duration_ms: 13.198203
+  ...
+# Subtest: pause during in-flight request records usage but does not commit output
+ok 20 - pause during in-flight request records usage but does not commit output
+  ---
+  duration_ms: 8.371334
+  ...
+# Subtest: restart recovery pauses interrupted jobs rather than automatically spending
+ok 21 - restart recovery pauses interrupted jobs rather than automatically spending
+  ---
+  duration_ms: 0.843007
+  ...
+# Subtest: refusals and invalid structured output cannot replace manuscripts
+ok 22 - refusals and invalid structured output cannot replace manuscripts
+  ---
+  duration_ms: 9.690212
+  ...
+# Subtest: rate limit is visible and does not enter an automatic paid retry loop
+ok 23 - rate limit is visible and does not enter an automatic paid retry loop
+  ---
+  duration_ms: 5.558478
+  ...
+# Subtest: resuming a committed single-step job does not generate twice
+ok 24 - resuming a committed single-step job does not generate twice
+  ---
+  duration_ms: 0.894957
+  ...
+# Subtest: demo mode and missing credentials are honest disabled states
+ok 25 - demo mode and missing credentials are honest disabled states
+  ---
+  duration_ms: 0.190293
+  ...
+# Subtest: ambiguous server failures preserve uncertain spend and never retry automatically
+ok 26 - ambiguous server failures preserve uncertain spend and never retry automatically
+  ---
+  duration_ms: 5.622597
+  ...
+# Subtest: memory-only jobs checkpoint extracted evidence without rewriting prose, and discard unsupported quotations
+ok 27 - memory-only jobs checkpoint extracted evidence without rewriting prose, and discard unsupported quotations
+  ---
+  duration_ms: 10.44837
+  ...
+# Subtest: actual draft and review requests include chapter-one facts at chapter23, voice direction and prior-book memory
+ok 28 - actual draft and review requests include chapter-one facts at chapter23, voice direction and prior-book memory
+  ---
+  duration_ms: 16.896411
+  ...
+# Subtest: editing an earlier volume during generation prevents committing a result built on stale series memory
+ok 29 - editing an earlier volume during generation prevents committing a result built on stale series memory
+  ---
+  duration_ms: 14.430677
+  ...
+# Subtest: stale pinned evidence prevents memory refresh until author review; extraction remains separately budgeted
+ok 30 - stale pinned evidence prevents memory refresh until author review; extraction remains separately budgeted
+  ---
+  duration_ms: 1.252524
+  ...
+# Subtest: memory request caps retain completed ledgers and a new missing-only run skips them
+ok 31 - memory request caps retain completed ledgers and a new missing-only run skips them
+  ---
+  duration_ms: 7.229536
+  ...
+# Subtest: AI changes to an earlier volume flag later manuscripts without rewriting their prose
+ok 32 - AI changes to an earlier volume flag later manuscripts without rewriting their prose
+  ---
+  duration_ms: 6.993396
+  ...
+# Subtest: legacy series gain an empty view-only roadmap without mutation or migration
+ok 33 - legacy series gain an empty view-only roadmap without mutation or migration
+  ---
+  duration_ms: 7.612137
+  ...
+# Subtest: roadmap schema and references reject invalid or duplicate milestones and character beats
+ok 34 - roadmap schema and references reject invalid or duplicate milestones and character beats
+  ---
+  duration_ms: 2.795459
+  ...
+# Subtest: reordering volumes preserves IDs/references and flags reversed setup/payoff order
+ok 35 - reordering volumes preserves IDs/references and flags reversed setup/payoff order
+  ---
+  duration_ms: 0.58867
+  ...
+# Subtest: chapter 23 retrieves and carries a pinned fact from chapter 1, with exact evidence and no chapter 24 leakage
+ok 36 - chapter 23 retrieves and carries a pinned fact from chapter 1, with exact evidence and no chapter 24 leakage
+  ---
+  duration_ms: 10.603948
+  ...
+# Subtest: raw retrieval finds early unindexed prose rather than relying only on summaries
+ok 37 - raw retrieval finds early unindexed prose rather than relying only on summaries
+  ---
+  duration_ms: 0.886804
+  ...
+# Subtest: book four inherits book-one history, selects the latest changing state, excludes future volumes and follows stable-ID reading order
+ok 38 - book four inherits book-one history, selects the latest changing state, excludes future volumes and follows stable-ID reading order
+  ---
+  duration_ms: 1.345913
+  ...
+# Subtest: edits invalidate source-hashed memory and stale pins block generation rather than being silently omitted
+ok 39 - edits invalidate source-hashed memory and stale pins block generation rather than being silently omitted
+  ---
+  duration_ms: 0.549956
+  ...
+# Subtest: only exact evidence quotes are accepted; refreshing unchanged memory retains reviewed pins and legacy books remain valid
+ok 40 - only exact evidence quotes are accepted; refreshing unchanged memory retains reviewed pins and legacy books remain valid
+  ---
+  duration_ms: 7.696821
+  ...
+# Subtest: contradictory immutable facts are visible and context-budget pressure cannot silently drop pins
+ok 41 - contradictory immutable facts are visible and context-budget pressure cannot silently drop pins
+  ---
+  duration_ms: 0.965105
+  ...
+# Subtest: local craft checks report long repeated passages but do not present ordinary short phrases as plagiarism
+ok 42 - local craft checks report long repeated passages but do not present ordinary short phrases as plagiarism
+  ---
+  duration_ms: 0.411516
+  ...
+# Subtest: manuscript search is literal, Unicode-aware and reports selectable UTF16 offsets
+ok 43 - manuscript search is literal, Unicode-aware and reports selectable UTF16 offsets
+  ---
+  duration_ms: 1.485555
+  ...
+# Subtest: search caps results only when additional matches exist
+ok 44 - search caps results only when additional matches exist
+  ---
+  duration_ms: 0.539725
+  ...
+# Subtest: save merge retains typing and metadata changes while adopting server revision
+ok 45 - save merge retains typing and metadata changes while adopting server revision
+  ---
+  duration_ms: 0.855849
+  ...
+# Subtest: save merge preserves post-submit chapter additions, deletions and ordering
+ok 46 - save merge preserves post-submit chapter additions, deletions and ordering
+  ---
+  duration_ms: 0.429637
+  ...
+# Subtest: recovery validation and revision rules prevent whole-book stale restores
+ok 47 - recovery validation and revision rules prevent whole-book stale restores
+  ---
+  duration_ms: 7.662925
+  ...
+# Subtest: device copies isolate books and writers, default off and retain last copy on quota failure
+ok 48 - device copies isolate books and writers, default off and retain last copy on quota failure
+  ---
+  duration_ms: 7.083077
+  ...
+1..48
+# tests 48
+# suites 0
+# pass 48
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2139.009976

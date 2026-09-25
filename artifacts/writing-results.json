@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-09-24T20:06:53.889063+00:00",
+  "scope": "Better writing experience",
+  "features": [
+    "Focus mode with chapter navigation and explicit saving",
+    "Literal title/prose search with Unicode UTF16 match selection and 200-result cap",
+    "Editor text size and line spacing",
+    "Working-draft Markdown download including unsaved edits",
+    "Opt-in unencrypted per-book device recovery with distinct writer IDs",
+    "Matching-revision whole restore; stale-copy review/download/new-ID chapter append",
+    "Save and history-response merging preserves later edits"
+  ],
+  "unit_pipeline": {
+    "passed": 35,
+    "failed": 0
+  },
+  "browser_api": {
+    "passed": 20,
+    "failed": 0,
+    "new_writing_cases": 7
+  },
+  "automated_accessibility": {
+    "writing_focus_desktop": "zero axe WCAG 2 A/AA and 2.1 AA violations",
+    "search_mobile": "zero axe violations",
+    "not_a_conformance_claim": true
+  },
+  "responsive": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "mobile_horizontal_overflow": false
+  },
+  "issues_found_and_fixed": [
+    "Editor label contrast in initial axe check",
+    "Collapsed details controls included in modal focus trap"
+  ],
+  "boundaries": [
+    "Chromium only",
+    "Local copies can be lost on browser/OS failure, quota errors or site-data removal",
+    "Device recovery defaults off; browser copies are unencrypted and persist after logout",
+    "No recovery-file import interface",
+    "No live-model call or remote deployment"
+  ],
+  "evidence": [
+    "artifacts/browser-results.json",
+    "artifacts/unit-results.txt",
+    "artifacts/writing-preview-smoke.json",
+    "artifacts/screenshots/writing-focus-desktop.png",
+    "artifacts/screenshots/writing-focus-mobile.png",
+    "artifacts/screenshots/writing-search-mobile.png"
+  ]
+}

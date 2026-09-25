@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.2.0",
+  "project_slug": "ghost-writer",
+  "current_phase": "preview",
+  "current_completion_label": "incomplete",
+  "accepted_core_outcome": "Build an actual fresh private Ghost Writer app with coherent genre RNG including LitRPG, guided and bounded autopilot writing, integral series planning, location-informed culturally relevant naming, and Coolify self-hosting preparation.",
+  "last_turn_summary": "Reviewed selected public pages/help for AIWriteBook, BookyAI, probable Chapter/Designrr alternatives and BookNova; exact go.charter.pub and go1.designr.io did not load. Implemented source-hashed chapter ledgers, quoted facts/pins, bounded earlier-chapter/prior-volume retrieval, current-state selection, stale/conflict guards, source-dependency concurrency checks, explicit memory jobs, voice direction and repetition warnings. Story memory tab is live.48 unit/pipeline and23 browser/API tests pass, including actual synthetic request payloads for chapter1 at chapter23 and book1 at book4. Preview ghost-writer-33a61e53 runs port3000 using preserved data/preview-v1; live smoke passed without edits. Research report and GPT6-sol audit prompt are in docs and workspace root; source ZIP updated. No paid calls or remote deployment; real-model literary quality remains untested.",
+  "next_actions": [
+    {
+      "id": "N1",
+      "action": "Use the live Ghost Writer preview, Book \u2192 Story memory, and docs/STORY-MEMORY.md. For independent review, attach the updated source ZIP and use docs/GPT-6-SOL-REVIEW-PROMPT.md plus docs/COMPETITOR-REVIEW.md. Preserve data/preview-v1 and GhostForge."
+    },
+    {
+      "id": "N2",
+      "action": "Choose the actual HTTPS app domain in Coolify at coolify.delquro.com; obtain explicit remote-action scope before deploying. Set credentials through Coolify secrets, never chat."
+    },
+    {
+      "id": "N3",
+      "action": "Build/run the prepared Docker image, verify login, persistence, backup/restore and proxy-only access before enabling generation."
+    },
+    {
+      "id": "N4",
+      "action": "With secure model/key/current pricing configuration and a small authorized spend ceiling, run one real outline/chapter/review flow; then evaluate full-book and series quality."
+    },
+    {
+      "id": "N5",
+      "action": "Expand coherent catalog and historical naming research; implement remaining billion-count certification/LitRPG ledger/revision-aware facts and publishing exports only with measured evidence."
+    }
+  ],
+  "open_items": [
+    {
+      "id": "O1",
+      "summary": "App source/local preview implemented; production deployment and live-model quality still unverified."
+    },
+    {
+      "id": "O2",
+      "summary": "Need actual application domain, Coolify access/action scope and secure production configuration."
+    },
+    {
+      "id": "O3",
+      "summary": "No real API key/model access or paid test budget; local provider tests are synthetic only."
+    },
+    {
+      "id": "O4",
+      "summary": "Billion-combination target is unimplemented/unverified; starter coherent catalog has no certified cardinality."
+    },
+    {
+      "id": "O5",
+      "summary": "Historical naming breadth, deterministic LitRPG arithmetic/event ledger, semantic dependency/reveal reasoning and DOCX/EPUB/audio remain deferred. Source-hashed memory and bounded retrieval are now implemented."
+    },
+    {
+      "id": "O6",
+      "summary": "Previous research every-page/link evaluation remains explicitly bounded, not exhaustive."
+    },
+    {
+      "id": "O7",
+      "summary": "Current JSON import is limited to 4 MB and 100 books/100 series; larger/full-history restoration uses SQLite backup."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B1",
+      "summary": "Uploaded specification companion lint/compact/manifest package missing; full package parity/integrity unavailable. Memory schema independently validated.",
+      "category": "capability-missing"
+    },
+    {
+      "id": "B2",
+      "summary": "Docker engine unavailable; prepared image not built/run here.",
+      "category": "capability-missing"
+    },
+    {
+      "id": "B3",
+      "summary": "Live OpenAI key/model/rates and authorized test spend not provided; no paid generation performed.",
+      "category": "authorization-needed"
+    },
+    {
+      "id": "B4",
+      "summary": "No remote Coolify deployment access/action scope or actual app hostname.",
+      "category": "waiting-for-user"
+    }
+  ],
+  "pending_user_questions": [],
+  "decisions": [
+    {
+      "id": "D1",
+      "summary": "User initially chose research-first, then explicitly directed implementation now; both guided/autopilot, private own-key studio, LitRPG, series planning and location-informed cultural naming are active requirements."
+    },
+    {
+      "id": "D2",
+      "summary": "Implemented fresh TypeScript React/Express application, SQLite WAL, durable single-worker jobs and direct server-side OpenAI adapter; deployment preparation targets Coolify.",
+      "source_path": "GHOST-WRITER-BLUEPRINT.md"
+    },
+    {
+      "id": "D3",
+      "summary": "Starter v1 uses curated causal genre foundations, reproducible seeds and locks. Billion-scale catalog and full event/dependency simulation remain unverified; GPT output itself is not seed-reproducible.",
+      "source_path": "RNG-AND-LITRPG-SPEC.md"
+    },
+    {
+      "id": "D4",
+      "summary": "Preserve source-observed lessons: independent old RNG pools, in-memory jobs, ledger tail truncation, plaintext key settings, no dedicated chapter version table; source SQLite differs from old Supabase docs.",
+      "source_path": "GHOST-WRITER-BLUEPRINT.md"
+    },
+    {
+      "id": "D5",
+      "summary": "Local app typecheck/build/lint/unit/browser/API/partial accessibility/backup tests now passed. No claim of real-model quality, external penetration testing, exhaustive competitor crawl, container/remote deployment or release readiness.",
+      "source_path": "RESEARCH-COVERAGE.md"
+    },
+    {
+      "id": "D6",
+      "summary": "Coolify management host is coolify.delquro.com; do not assume it is the app origin. One replica, persistent /app/data, HTTPS and password protection.",
+      "source_path": "README.md"
+    },
+    {
+      "id": "D7",
+      "summary": "Location only advises naming background; explicit character origin/culture/language/era controls suggestions. Shared series characters are authoritative across linked manuscripts.",
+      "source_path": "shared/domain.ts"
+    }
+  ],
+  "preferences": {
+    "favorite_genre": "LitRPG",
+    "provider": "OpenAI GPT via own API key",
+    "existing_project": "Start fresh; inspect GhostForge without modifying it.",
+    "hosting": "User Coolify management instance at coolify.delquro.com",
+    "series": "Series planning integral to app",
+    "names": "Culturally relevant names informed by location, with explicit origin/background/language/era and author overrides",
+    "naming_places": "User specifically requests more places within USA, China and Russia and at least a few countries from each continent."
+  },
+  "turn_log": [
+    {
+      "at": "2026-09-24T12:50:17.845606+00:00",
+      "user_message_brief": "Research three AI book products and GhostForge for a fresh GPT book-writing app with coherent RNG and LitRPG; clarified private-first, research-first, both modes.",
+      "actions_taken": [
+        "Inspected uploaded build specification and resolved scope via ask_user.",
+        "Retrieved public source pages and inventoried links/sitemaps.",
+        "Read-only pinned GhostForge checkout and targeted source inspection.",
+        "Created blueprint, detailed RNG/LitRPG spec and coverage files.",
+        "Validated memory and document local links/counts; packaged deliverables."
+      ],
+      "outcomes": [
+        "Research proposal delivered; implementation unstarted.",
+        "No existing repository modifications, paid AI calls, deployment or publication."
+      ],
+      "new_blockers": [
+        "Full specification companion package absent."
+      ],
+      "unresolved": [
+        "User approval, deployment target, live-test ceiling, model access."
+      ]
+    },
+    {
+      "at": "2026-09-24T13:29:16.031696+00:00",
+      "user_message_brief": "You were supposed to be creating an app; include series planning, location-based culturally relevant names and hosting through coolify.delquro.com.",
+      "actions_taken": [
+        "Preserved GhostForge and prior research; implemented fresh full-stack author studio.",
+        "Built seed/name schemas, series/shared-cast editing, manuscript persistence/revisions and export/import.",
+        "Implemented protected server API and bounded checkpointed Responses worker with no paid calls.",
+        "Installed pinned dependencies, remediated audit issues, typechecked/linted/built.",
+        "Ran 18 local domain/pipeline tests and 8 browser/API tests against isolated production servers.",
+        "Captured desktop/mobile screens, checked four routes with axe and validated an online SQLite backup.",
+        "Wrote Docker/Coolify setup, environment template, source package and honest quality records."
+      ],
+      "outcomes": [
+        "Working keyless synthetic preview on port3000, current source build matches runtime.",
+        "TypeScript/lint/build pass; audit0; all 26 tests pass; partial axe checks0 violations.",
+        "No paid API spend, remote deployment, Git push, DNS or existing GhostForge modifications."
+      ],
+      "new_blockers": [
+        "Container execution unavailable without Docker.",
+        "Live model and remote deployment require secure configuration and authorization."
+      ],
+      "unresolved": [
+        "Real OpenAI model/quality/full-book and series benchmark.",
+        "Coolify app hostname, secure secrets and deployment validation.",
+        "Unimplemented billion-scale catalog, advanced LitRPG/fact ledger and publishing formats."
+      ]
+    },
+    {
+      "at": "2026-09-24T13:46:21.554716+00:00",
+      "user_message_brief": "Please run the server again so I can see the preview.",
+      "actions_taken": [
+        "Inspected existing build and dependencies.",
+        "Started production demo server using existing preview data.",
+        "Verified health and main-page responses."
+      ],
+      "outcomes": [
+        "Ghost Writer preview available on port3000; paid generation remains disabled."
+      ],
+      "new_blockers": [],
+      "unresolved": []
+    },
+    {
+      "at": "2026-09-24T13:48:30.653064+00:00",
+      "user_message_brief": "Reiterated series planning, culturally relevant location-based character names, Coolify hosting, and actual app creation.",
+      "actions_taken": [
+        "Inspected implemented series/naming UI and Docker deliverables.",
+        "Stopped duplicate preview processes and restarted port3000 as Ghost Writer.",
+        "Browser-verified series planning tabs/shared cast and French location/name suggestions without saving test mutations."
+      ],
+      "outcomes": [
+        "Working app preview surfaced with a newly opened port.",
+        "Series/naming recheck passed, no browser errors; evidence artifacts/series-naming-recheck.json.",
+        "No paid calls or remote deployment."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Actual app domain, secure Coolify deployment configuration and live model validation remain pending."
+      ]
+    },
+    {
+      "at": "2026-09-24T14:05:00.412118+00:00",
+      "user_message_brief": "Character naming needs more places, especially large countries and places within those countries.",
+      "actions_taken": [
+        "Added curated country/region/city catalog and 45 additional real-world naming profiles, preserving six original real-world profiles and custom.",
+        "Implemented place browsing in forge, series bible and cast; advisory multi-profile choices never overwrite identity or place silently.",
+        "Added compatible Russian/Polish inflections, Chinese/Vietnamese ordering, multi-family forms, parental-name and mononym variants with explicit limits.",
+        "Tested all 474 city-entry round trips, profile references, aliases/ambiguities and expanded browser workflows including series save/reload.",
+        "Rebuilt/restarted preview, captured desktop/mobile evidence, updated catalog documentation and source package."
+      ],
+      "outcomes": [
+        "32 countries; 282 regions; 474 city entries; 51 real-world profiles plus custom.",
+        "24 unit/pipeline and 10 browser/API tests pass; typecheck/lint/build pass; audit0.",
+        "Existing preview data and shared identities preserved; zero paid API calls."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Catalog is curated starter coverage, not all places/cultures or population-weighted naming.",
+        "No professional per-name cultural audit, broad historical catalogs or new remote deployment/live-model evidence."
+      ]
+    },
+    {
+      "at": "2026-09-24T15:58:05.686541+00:00",
+      "user_message_brief": "Please run the server again so I can see the preview.",
+      "actions_taken": [
+        "Inspected persisted source/build state; runtime dependencies and frontend build needed restoration.",
+        "Ran npm ci with scripts disabled, rebuilt approved native dependencies and production app.",
+        "Started Ghost Writer preview on port3000 and verified health/main-page responses."
+      ],
+      "outcomes": [
+        "Preview running with expanded naming catalog and existing saved preview data.",
+        "No paid API calls."
+      ],
+      "new_blockers": [],
+      "unresolved": []
+    },
+    {
+      "at": "2026-09-24T16:09:37.336509+00:00",
+      "user_message_brief": "More naming places especially USA, China, Russia; at least a few from every continent.",
+      "actions_taken": [
+        "Expanded country/region/city catalog; added13 countries and14 real-world naming variants.",
+        "Added continent filter with explicit transcontinental memberships, current-place preservation and four Antarctic research-station locations.",
+        "Expanded China/Russia regional and city catalogs and US city choices; added Tatar variant for Tatarstan.",
+        "Added unit coverage for continent/major-country depth and station-isolation, plus browser continent-selection flow.",
+        "Rebuilt and restarted actual preview with existing data, captured desktop/mobile evidence, updated source package and docs."
+      ],
+      "outcomes": [
+        "45 countries, 387 regional entries, 754 city entries, 65 real-world naming profiles plus custom.",
+        "26 unit/pipeline and11 browser/API tests passed; typecheck/lint/build/audit pass.",
+        "Saved preview data preserved; no paid calls or Coolify deployment."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Curated starter coverage, not a complete worldwide locality or cultural-name database.",
+        "Professional name/culture review, historical catalogs, live-model and deployed-runtime validation remain pending."
+      ]
+    },
+    {
+      "at": "2026-09-24T16:27:47.921178+00:00",
+      "user_message_brief": "We need to incorporate series planning.",
+      "actions_taken": [
+        "Inspected existing Series studio and expanded it with a default series-wide roadmap instead of only reiterating existing tabs.",
+        "Added optional roadmap schema, cross-reference validation, safe reorder/deletion behavior and planning reminders.",
+        "Added whole-series direction, assigned timeline milestones, recurring-character arcs/beats and linked-book status overview.",
+        "Included saved roadmap and future-reveal policy in linked-book requests; ordered prior-book context by series order.",
+        "Ran29 unit/pipeline and13 browser/API tests, typecheck/lint/build/audit, and desktop/mobile planner smoke.",
+        "Restarted preview with existing data and updated source package, user guide and verification records."
+      ],
+      "outcomes": [
+        "Series planning is persisted in the app and integrated into generation context.",
+        "All tests pass; legacy records retained; screenshot examples were unsaved drafts, not database mutations.",
+        "No live-model call or remote deployment."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Series roadmap is author-edited, not an AI series-plan generator.",
+        "Autopilot remains explicitly authorized per-book, not whole-series unattended drafting.",
+        "Live-model adherence/quality, Coolify deployment and production validation remain unverified."
+      ]
+    },
+    {
+      "at": "2026-09-24T16:43:26.970630+00:00",
+      "user_message_brief": "Please run the server again so I can see the preview.",
+      "actions_taken": [
+        "Inspected saved build state.",
+        "Restored dependencies and built current source.",
+        "Started Ghost Writer preview on port3000 and verified health/page responses."
+      ],
+      "outcomes": [
+        "Preview available with latest series planning and naming features; existing data preserved."
+      ],
+      "new_blockers": [],
+      "unresolved": []
+    },
+    {
+      "at": "2026-09-24T20:06:53.889063+00:00",
+      "user_message_brief": "Make this app better; selected Better writing experience.",
+      "actions_taken": [
+        "Implemented focus, manuscript search, chapter jump/previous/next and typography controls.",
+        "Added opt-in per-book device recovery, failure warnings, review/download/discard and revision-safe restore/new-ID chapter append.",
+        "Protected Save and history restore from overwriting typing made during the request.",
+        "Added six unit and seven browser cases; corrected contrast and collapsed-details keyboard trapping found by tests.",
+        "Ran35 unit/pipeline and20 browser/API tests, typecheck/lint/build/format/audit; documented privacy and recovery limits.",
+        "Restarted main preview using preserved data and verified live health/tools; updated source package."
+      ],
+      "outcomes": [
+        "Writing tools and safer recovery are integrated in the running app.",
+        "All final checks pass; existing projects/reference preserved.",
+        "No automatic server saves, paid API calls or remote deployment."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Browser recovery is not encrypted or guaranteed and stays on this browser origin.",
+        "Firefox/WebKit, live-model quality, Docker execution and Coolify deployment remain unverified."
+      ]
+    },
+    {
+      "at": "2026-09-25T16:33:06.500209+00:00",
+      "user_message_brief": "Evaluate five competing writing sites, improve functions and long-book/series memory, then provide a GPT6-sol evaluation/stability/enhancement prompt.",
+      "actions_taken": [
+        "Read selected public primary product/help sources and one novel opening; documented two unresolved address spellings and scope boundaries.",
+        "Implemented persisted source-hashed chapter memory, quoted evidence, author pins and bounded past-only retrieval across linked volumes.",
+        "Integrated structured memory with drafting and an explicitly budgeted existing-prose extraction job; source changes guard in-flight results and flag sequels.",
+        "Added Story memory UI, context preview/download, voice controls and local repetition warnings.",
+        "Ran48 unit/pipeline and23 browser/API cases plus typecheck/lint/build/format/audit; captured desktop/mobile workbench screenshots.",
+        "Restarted preview on preserved data; produced competitor report, memory guide, GPT6-sol prompt and updated source package."
+      ],
+      "outcomes": [
+        "Verified long-range evidence transmission on original synthetic fixtures, including chapter1\u219223 and book1\u21924.",
+        "No claim of infallible memory or real-model literary quality.",
+        "Existing books, GhostForge reference and explicit save/budget semantics preserved."
+      ],
+      "new_blockers": [],
+      "unresolved": [
+        "Exact Charter/Designr domains need confirmation if the probable Chapter/Designrr matches were not intended.",
+        "Live-model extraction/prose quality requires secure configuration and authorized test budget.",
+        "Semantic retrieval/alias resolution, narrative-time ledger, full-manuscript editing and production deployment remain unverified or deferred."
+      ]
+    }
+  ],
+  "archived": []
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "project": "ghost-writer",
+  "version": "0.1.0",
+  "phase": "preview",
+  "completion": "incomplete",
+  "recorded_at": "2026-09-25T16:33:06.500209+00:00",
+  "paid_api_calls": 0,
+  "remote_deployment": "not-run",
+  "checks": [
+    {
+      "id": "typecheck",
+      "state": "pass",
+      "evidence": "artifacts/typecheck-results.txt"
+    },
+    {
+      "id": "lint",
+      "state": "pass",
+      "evidence": "artifacts/lint-results.txt"
+    },
+    {
+      "id": "build",
+      "state": "pass",
+      "evidence": "artifacts/build-results.txt"
+    },
+    {
+      "id": "audit",
+      "state": "pass",
+      "evidence": "artifacts/npm-audit.json"
+    },
+    {
+      "id": "unit-pipeline",
+      "state": "pass",
+      "count": 48,
+      "evidence": "artifacts/unit-results.txt"
+    },
+    {
+      "id": "browser-api",
+      "state": "pass",
+      "count": 23,
+      "evidence": "artifacts/browser-results.json"
+    },
+    {
+      "id": "axe-four-views",
+      "state": "pass",
+      "evidence": "artifacts/accessibility-results.json"
+    },
+    {
+      "id": "visual-smoke",
+      "state": "pass",
+      "evidence": "artifacts/visual-smoke.json"
+    },
+    {
+      "id": "sqlite-online-backup",
+      "state": "pass",
+      "evidence": "artifacts/backup-results.json"
+    },
+    {
+      "id": "docker-runtime",
+      "state": "blocked",
+      "reason": "Docker engine unavailable"
+    },
+    {
+      "id": "real-openai",
+      "state": "blocked",
+      "reason": "No credentials/current model/pricing or paid-test authorization"
+    },
+    {
+      "id": "coolify-deployment",
+      "state": "blocked",
+      "reason": "No remote access/action scope or app domain"
+    },
+    {
+      "id": "literary-benchmark",
+      "state": "not-run",
+      "reason": "No real model generation"
+    },
+    {
+      "id": "full-spec-package-parity",
+      "state": "blocked",
+      "reason": "Companion spec package not attached"
+    },
+    {
+      "id": "naming-expansion",
+      "state": "pass",
+      "evidence": "artifacts/naming-expansion.json"
+    },
+    {
+      "id": "series-roadmap",
+      "state": "pass",
+      "evidence": "artifacts/series-roadmap-results.json"
+    },
+    {
+      "id": "writing-experience",
+      "state": "pass",
+      "evidence": "artifacts/writing-results.json"
+    },
+    {
+      "id": "story-memory",
+      "state": "pass",
+      "evidence": "artifacts/story-memory-results.json"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "review_date": "2026-09-25",
+  "recorded_at": "2026-09-25T16:33:06.500209+00:00",
+  "method": "Selective public research with fetch/search tools; no purchases, login, proprietary implementation access or paid generation. Original notes only; no competitor corpus in source package.",
+  "sources": [
+    {
+      "url": "https://aiwritebook.com/",
+      "coverage": "partial",
+      "finding": "Homepage portions; claims/customer stories not independently verified."
+    },
+    {
+      "url": "https://aiwritebook.com/en/ai-book-series-generator/",
+      "coverage": "full",
+      "finding": "Both chunks; five-book extraction limit, ordered merge, state/deaths/style and compression."
+    },
+    {
+      "url": "https://aiwritebook.com/en/ai-book-editor/",
+      "coverage": "functional-sections",
+      "finding": "Chunks0-1; developmental/line/proof passes, style sheet, accept/reject and original-file preservation."
+    },
+    {
+      "url": "https://aiwritebook.com/en/features/chapter-generator/",
+      "coverage": "functional-sections",
+      "finding": "Outline-first chapter generation, per-chapter direction and author sample."
+    },
+    {
+      "url": "https://www.bookyai.net/",
+      "coverage": "full",
+      "finding": "Public desktop topic-to-export pipeline overview."
+    },
+    {
+      "url": "https://special.bookyai.net/",
+      "coverage": "partial",
+      "finding": "Chunks1 and3; detailed pipeline and series mechanisms, not all sales content."
+    },
+    {
+      "url": "https://support.bookyai.net/",
+      "coverage": "full",
+      "finding": "Support hub used for bounded discovery."
+    },
+    {
+      "url": "https://support.bookyai.net/kb/getting-started",
+      "coverage": "partial-index",
+      "finding": "Chunks0,5,8 used to select relevant articles; not every help article read."
+    },
+    {
+      "url": "https://support.bookyai.net/article/how-do-i-write-a-book-series-where-the-ai-remembers-the-previous-books",
+      "coverage": "full",
+      "finding": "Prior-volume recap/open threads/shared style."
+    },
+    {
+      "url": "https://support.bookyai.net/article/a-chapter-repeats-parts-of-the-previous-chapter-why-does-this-happen-and-is-it-fixed",
+      "coverage": "full",
+      "finding": "Independent requests, continuity notes/end beats, repetition comparison and vendor-described regeneration."
+    },
+    {
+      "url": "https://support.bookyai.net/article/a-chapter-ignores-its-outline-beats-and-writes-the-events-of-the-following-chapters-what-can-i-do",
+      "coverage": "full",
+      "finding": "Current binding beats and off-limits future events."
+    },
+    {
+      "url": "https://support.bookyai.net/article/how-do-character-secrets-work-won-t-the-ai-just-blurt-them-out",
+      "coverage": "full",
+      "finding": "Secret as behavior influence, disclosure constrained by prompt."
+    },
+    {
+      "url": "https://go.charter.pub/",
+      "coverage": "fetch-failed",
+      "finding": "Exact user-supplied URL not inspected; no assertion it redirects to Chapter."
+    },
+    {
+      "url": "https://chapter.pub/fiction-software",
+      "coverage": "partial",
+      "finding": "Chunks0,2,3; possible intended alternative; FAQ and vendor DoubleCheck claims."
+    },
+    {
+      "url": "https://go1.designr.io/",
+      "coverage": "fetch-failed",
+      "finding": "Exact user-supplied address not inspected."
+    },
+    {
+      "url": "https://go1.designrr.io/",
+      "coverage": "functional-sections",
+      "finding": "Possible intended alternative with two r characters; guided workflow and design/export."
+    },
+    {
+      "url": "https://learn.designrr.io/en/articles/10242912-how-to-create-an-ebook-using-wordgenie",
+      "coverage": "functional-sections",
+      "finding": "Standard wizard and pre-generation persistence limitation; chunk0."
+    },
+    {
+      "url": "https://learn.designrr.io/en/articles/15612240-how-to-create-an-ebook-using-wordgenie-ai-v4",
+      "coverage": "full",
+      "finding": "Guided audience/purpose/style/direction and outline approval; plan limits."
+    },
+    {
+      "url": "https://booknova.ai/",
+      "coverage": "partial",
+      "finding": "Chunks0-1; story threads, chapter craft, voice/lexical/relationship vendor descriptions."
+    },
+    {
+      "url": "https://booknova.ai/media/samples/booknova_book_stone_serpent.pdf",
+      "coverage": "opening-only",
+      "finding": "First returned PDF chunk: front matter and opening excerpt, not full novel; no prose redistributed."
+    }
+  ]
+}
